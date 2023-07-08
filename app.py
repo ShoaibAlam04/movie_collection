@@ -1,7 +1,6 @@
 MENU_PROMPT = "\nEnter 'a' to add a movie, 'l' to see your movies, 'f' to find a movie by title, or 'q' to quit: "
 movies = []
 
-
 def add_movie():
     title = input("Enter the movie title: ")
     director = input("Enter the movie director: ")
